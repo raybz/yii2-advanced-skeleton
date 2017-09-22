@@ -1,0 +1,31 @@
+{
+    "name": "2144/yii2-components",
+    "type": "library",
+    "description": "A collection of useful PHP functions, mini classes and snippets",
+    "license": "MIT",
+    "minimum-stability": "stable",
+    "keywords": [
+        "helpers", "helper", "utility", "utils", "collection", "environment", "image", "filesystem",
+        "array", "cli", "command line", "dates", "email", "env", "filter", "http", "url", "serialize",
+        "slugif", "string", "mbstring", "timer", "misc"
+    ],
+    "require": {
+        "php": ">=5.3.10"
+    },
+    "suggest": {
+        "ext-mbstring": "Provides multibyte specific string functions"
+    },
+    "autoload": {
+        "psr-4": {
+            "Components\\": "src"
+        }
+    },
+    "extra": {
+        "branch-alias": {
+            "dev-master": "1.x-dev"
+        }
+    },
+    "config": {
+        "optimize-autoloader": true
+    }
+}
