@@ -19,7 +19,7 @@
     },
     "minimum-stability": "stable",
     "require": {
-        "php": ">=5.4.0",
+        "php": ">=7.0.0",
         "2amigos/yii2-multi-select-widget": "*",
         "2amigos/yii2-qrcode-helper": "*",
         "dmstr/yii2-adminlte-asset": "2.*",
